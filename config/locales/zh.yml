@@ -177,7 +177,7 @@ zh:
   notice_no_issue_selected: "未选择任何任务！请选择您要编辑的任务。"
   notice_account_pending: "您的帐号已被成功创建，正在等待管理员的审核。"
   notice_default_data_loaded: 成功载入默认设置。
-  notice_unable_delete_version: 无法删除版本
+  notice_unable_delete_version: 无法删除阶段
   notice_unable_delete_time_entry: 无法删除工时
   notice_issue_done_ratios_updated: 任务完成度已更新。
   notice_gantt_chart_truncated: "由于项目数量超过可显示的最大值 (%{max})，故此甘特图将截断超出部分"
@@ -192,7 +192,7 @@ zh:
   error_can_not_delete_custom_field: 无法删除自定义属性
   error_can_not_delete_tracker: "该跟踪标签已包含任务,无法删除"
   error_can_not_remove_role: "该角色正在使用中，无法删除"
-  error_can_not_reopen_issue_on_closed_version: 该任务被关联到一个已经关闭的版本，因此无法重新打开。
+  error_can_not_reopen_issue_on_closed_version: 该任务被关联到一个已经关闭的阶段，因此无法重新打开。
   error_can_not_archive_project: 该项目无法被存档
   error_issue_done_ratios_not_updated: 任务完成度未能被更新。
   error_workflow_copy_source: 请选择一个源跟踪标签或者角色
@@ -378,7 +378,7 @@ zh:
   permission_select_project_modules: 选择项目模块
   permission_manage_members: 管理成员
   permission_manage_project_activities: 管理项目活动
-  permission_manage_versions: 管理版本
+  permission_manage_versions: 管理阶段
   permission_manage_categories: 管理任务类别
   permission_view_issues: 查看任务
   permission_add_issues: 新建任务
@@ -543,10 +543,10 @@ zh:
   label_news_added: 新闻已添加
   label_settings: 配置
   label_overview: 概述
-  label_version: 版本
-  label_version_new: 新建版本
-  label_version_plural: 版本
-  label_close_versions: 关闭已完成的版本
+  label_version: 阶段
+  label_version_new: 新建阶段
+  label_version_plural: 阶段
+  label_close_versions: 关闭已完成的阶段
   label_confirmation: 确认
   label_export_to: 导出
   label_read: 读取...
@@ -655,7 +655,7 @@ zh:
   label_wiki_page_plural: Wiki 页面
   label_index_by_title: 按标题索引
   label_index_by_date: 按日期索引
-  label_current_version: 当前版本
+  label_current_version: 当前阶段
   label_preview: 预览
   label_feed_plural: Feeds
   label_changes_details: 所有变更的详情
@@ -690,7 +690,7 @@ zh:
   label_follows: 跟随于
   label_stay_logged_in: 保持登录状态
   label_disabled: 禁用
-  label_show_completed_versions: 显示已完成的版本
+  label_show_completed_versions: 显示已完成的阶段
   label_me: 我
   label_board: 讨论区
   label_board_new: 新建讨论区
@@ -998,7 +998,7 @@ zh:
   field_repository_is_default: 主版本库
   label_copy_attachments: 复制附件
   label_item_position: "%{position}/%{count}"
-  label_completed_versions: 已完成的版本
+  label_completed_versions: 已完成的阶段
   text_project_identifier_info: 仅小写字母（a-z）、数字、破折号（-）和下划线（_）可以使用。<br />一旦保存，标识无法修改。
   field_multiple: 多重取值
   setting_commit_cross_project_ref: 允许引用/修复所有其他项目的任务
@@ -1042,7 +1042,7 @@ zh:
   label_attribute_of_project: 项目 %{name}
   label_attribute_of_author: 作者 %{name}
   label_attribute_of_assigned_to: 指派给 %{name}
-  label_attribute_of_fixed_version: 目标版本 %{name}
+  label_attribute_of_fixed_version: 目标阶段 %{name}
   label_copy_subtasks: 复制子任务
   label_copied_to: 复制到
   label_copied_from: 复制于
@@ -1162,7 +1162,7 @@ zh:
   label_assigned_issues: 被指派的任务
   label_field_format_enumeration: 键/值 清单
   label_f_hour_short: '%{value} 小时'
-  field_default_version: 默认版本
+  field_default_version: 默认阶段
   error_attachment_extension_not_allowed: 不允许上传此类型 %{extension} 附件
   setting_attachment_extensions_allowed: 允许上传的附件类型
   setting_attachment_extensions_denied: 禁止上传的附件类型
