@@ -2,7 +2,7 @@
 /.idea
 /.loadpath
 /.powrc
-/.rvmrc
+# /.rvmrc
 /config/additional_environment.rb
 /config/configuration.yml
 /config/database.yml
