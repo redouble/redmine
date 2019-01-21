@@ -31,6 +31,8 @@ gem "rails-html-sanitizer", ">= 1.0.3"
 gem 'tzinfo-data', platforms: [:mingw, :x64_mingw, :mswin]
 gem "rbpdf", "~> 1.19.6"
 
+gem 'puma'
+
 # Optional gem for LDAP authentication
 group :ldap do
   gem "net-ldap", "~> 0.12.0"
