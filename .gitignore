@@ -33,7 +33,7 @@
 /tmp/sockets/*
 /tmp/test/*
 /tmp/thumbnails/*
-/vendor/cache
+# /vendor/cache
 *.rbc
 
 /.bundle
