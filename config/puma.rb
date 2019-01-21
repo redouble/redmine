@@ -15,7 +15,7 @@ rails_env = ENV['RAILS_ENV'] || "production"
 environment rails_env
 
 # Set up socket location
-bind "tcp://0.0.0.0:8080"
+bind "tcp://0.0.0.0:8081"
 
 # Logging
 stdout_redirect "#{shared_dir}/log/puma.stdout.log", "#{shared_dir}/log/puma.stderr.log", true
