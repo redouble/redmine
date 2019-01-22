@@ -43,3 +43,5 @@
 /plugins/*
 !/plugins/README
 /plugins/redmine_cas/
+
+/pids/
