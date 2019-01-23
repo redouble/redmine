@@ -1,0 +1,12 @@
+1	低	1	f	IssuePriority	t	\N	\N	lowest
+2	普通	2	t	IssuePriority	t	\N	\N	default
+3	高	3	f	IssuePriority	t	\N	\N	high3
+4	紧急	4	f	IssuePriority	t	\N	\N	high2
+5	立刻	5	f	IssuePriority	t	\N	\N	highest
+8	管理	1	f	TimeEntryActivity	t	\N	\N	\N
+9	执行	2	f	TimeEntryActivity	t	\N	\N	\N
+6	被审计单位资料	1	f	DocumentCategory	t	\N	\N	\N
+7	审计底稿	2	f	DocumentCategory	t	\N	\N	\N
+10	审计报告	3	f	DocumentCategory	t	\N	\N	\N
+11	审计通知书	4	f	DocumentCategory	t	\N	\N	\N
+12	实施方案	5	f	DocumentCategory	t	\N	\N	\N

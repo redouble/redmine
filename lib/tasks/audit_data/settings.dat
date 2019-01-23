@@ -1,0 +1,63 @@
+1	app_title	石刻审计项目管理系统	2019-01-21 22:26:21.128215
+3	per_page_options	25,50,100	2019-01-21 22:26:21.168001
+4	search_results_per_page	10	2019-01-21 22:26:21.196402
+5	activity_days_default	30	2019-01-21 22:26:21.21757
+7	protocol	http	2019-01-21 22:26:21.263701
+8	text_formatting	textile	2019-01-21 22:26:21.293746
+9	cache_formatted_text	0	2019-01-21 22:26:21.328599
+10	wiki_compression		2019-01-21 22:26:21.354663
+11	feeds_limit	15	2019-01-21 22:26:21.377185
+13	default_language	zh	2019-01-21 22:26:38.945425
+19	timespan_format	decimal	2019-01-21 22:26:39.091827
+21	gravatar_enabled	0	2019-01-21 22:26:39.135431
+22	gravatar_default		2019-01-21 22:26:39.152743
+23	thumbnails_enabled	0	2019-01-21 22:26:39.168245
+24	thumbnails_size	100	2019-01-21 22:26:39.195741
+25	new_item_menu_tab	2	2019-01-21 22:26:39.232614
+26	plugin_s_audit_question	---\nshike_url: http://114.115.168.237:8080\n	2019-01-21 23:28:06.231312
+27	plugin_redmine_cas	---\nenabled: '1'\ncas_url: http://114.115.168.237:8888\nattributes_mapping: login=user&id=id&firstname=name\n	2019-01-22 00:00:03.32795
+28	login_required	1	2019-01-22 00:00:54.850262
+29	autologin	0	2019-01-22 00:00:54.874907
+30	self_registration	0	2019-01-22 00:00:54.892286
+31	show_custom_fields_on_registration	0	2019-01-22 00:00:54.910411
+32	unsubscribe	1	2019-01-22 00:00:54.925011
+33	password_min_length	8	2019-01-22 00:00:54.946636
+34	password_max_age	0	2019-01-22 00:00:54.983118
+35	lost_password	0	2019-01-22 00:00:55.006425
+36	max_additional_emails	5	2019-01-22 00:00:55.033378
+37	openid	0	2019-01-22 00:00:55.055356
+38	session_lifetime	0	2019-01-22 00:00:55.079624
+39	session_timeout	0	2019-01-22 00:00:55.105632
+40	default_users_hide_mail	1	2019-01-22 00:00:55.136439
+41	default_users_time_zone	Beijing	2019-01-22 00:00:55.155497
+42	rest_api_enabled	1	2019-01-22 00:01:03.83695
+43	jsonp_enabled	1	2019-01-22 00:01:03.886955
+6	host_name	114.115.168.237:8081	2019-01-22 00:01:25.092672
+44	enabled_scm	--- []\n	2019-01-22 00:01:38.593851
+45	autofetch_changesets	1	2019-01-22 00:01:38.617476
+46	sys_api_enabled	0	2019-01-22 00:01:38.63751
+47	repository_log_display_limit	100	2019-01-22 00:01:38.653319
+48	commit_logs_formatting	1	2019-01-22 00:01:38.666092
+49	commit_ref_keywords	refs,references,IssueID	2019-01-22 00:01:38.680114
+50	commit_cross_project_ref	0	2019-01-22 00:01:38.695901
+51	commit_logtime_enabled	0	2019-01-22 00:01:38.710271
+52	commit_update_keywords	--- []\n	2019-01-22 00:01:38.740113
+53	attachment_max_size	51200	2019-01-22 00:01:59.164714
+54	attachment_extensions_allowed		2019-01-22 00:01:59.174218
+55	attachment_extensions_denied		2019-01-22 00:01:59.184414
+56	file_max_size_displayed	512	2019-01-22 00:01:59.206911
+57	diff_max_lines_displayed	1500	2019-01-22 00:01:59.22924
+58	repositories_encodings		2019-01-22 00:01:59.244398
+59	default_projects_public	0	2019-01-22 00:02:37.200486
+60	default_projects_modules	---\n- issue_tracking\n- documents\n- files\n- gantt\n- audit_questions\n	2019-01-22 00:02:37.218645
+61	default_projects_tracker_ids	--- []\n	2019-01-22 00:02:37.241273
+62	sequential_project_identifiers	0	2019-01-22 00:02:37.257634
+63	new_project_user_role_id	4	2019-01-22 00:02:37.270833
+20	user_format	lastnamefirstname	2019-01-22 00:06:27.659038
+14	force_default_language_for_anonymous	1	2019-01-22 00:06:48.639861
+15	force_default_language_for_loggedin	1	2019-01-22 00:06:48.665574
+16	start_of_week	1	2019-01-22 00:06:48.680927
+17	date_format	%Y-%m-%d	2019-01-22 00:06:48.698778
+18	time_format	%H:%M	2019-01-22 00:06:48.717751
+2	welcome_text	欢迎使用石刻审计项目管理系统！\r\n本系统是石刻统一大数据应用平台的一个子系统，主要应用于审计项目的管理、作业执行和跟踪。在这个系统中，可以项目组成员多人进行在线协作，并且可以在线实时查看项目进展状况。	2019-01-22 13:38:05.278089
+12	ui_theme	redmine-theme-gitmike-master	2019-01-22 13:38:34.593324
