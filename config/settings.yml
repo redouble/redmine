@@ -20,9 +20,9 @@
 # Settings can be defined through the application in Admin -> Settings
 
 app_title:
-  default: Redmine
+  default: 石刻项目
 app_subtitle:
-  default: Project management
+  default: 基于石刻平台的项目管理子系统
 welcome_text:
   default:
 login_required:
@@ -79,7 +79,7 @@ per_page_options:
 search_results_per_page:
   default: 10
 mail_from:
-  default: redmine@example.net
+  default: support@shike.in
 bcc_recipients:
   default: 1
 plain_text_mail:
@@ -97,7 +97,7 @@ force_default_language_for_anonymous:
 force_default_language_for_loggedin:
   default: 0
 host_name:
-  default: localhost:3000
+  default: 114.115.168.237:8081
 protocol:
   default: http
   security_notifications: 1
@@ -158,7 +158,7 @@ time_format:
 timespan_format:
   default: 'decimal'
 user_format:
-  default: :firstname_lastname
+  default: :lastname_firstname
   format: symbol
 cross_project_issue_relations:
   default: 0
