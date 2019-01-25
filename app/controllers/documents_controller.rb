@@ -22,7 +22,7 @@ class DocumentsController < ApplicationController
   before_action :find_model_object, :except => [:index, :new, :create]
   before_action :find_project_from_association, :except => [:index, :new, :create]
   before_action :authorize
-  accept_api_auth :index
+  accept_api_auth :index, :show
 
   helper :attachments
   helper :custom_fields
@@ -54,6 +54,11 @@ class DocumentsController < ApplicationController
 
   def show
     @attachments = @document.attachments.to_a
+    
+    respond_to do |format|
+      format.html
+      format.api { render json: @document.to_json }
+    end
   end
 
   def new
