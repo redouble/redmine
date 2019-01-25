@@ -2,8 +2,8 @@
 2	DocumentCustomField	审计过程记录	text	\N		\N	\N	f	f	f	2	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n	
 3	DocumentCustomField	审计结论	text	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n	
 4	DocumentCustomField	关联阶段	version	\N		\N	\N	f	f	f	4	f	\N	t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nversion_status: []\nedit_tag_style: ''\n	
-5	ProjectCustomField	审计单位	string	\N		\N	255	f	f	t	1	t		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
-6	ProjectCustomField	被审计单位	string	\N		\N	255	f	f	t	2	t		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
+5	ProjectCustomField	审计单位	string	\N		\N	255	f	f	t	1	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
+6	ProjectCustomField	被审计单位	string	\N		\N	255	f	f	t	2	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
 7	ProjectCustomField	项目开始日期	date	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 8	ProjectCustomField	项目结束日期	date	\N		\N	\N	f	f	f	4	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 9	ProjectCustomField	审计期间开始	date	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
@@ -26,3 +26,5 @@
 26	ProjectCustomField	台账_移送纪检监察处理（人数）	int	\N		\N	\N	f	f	f	22	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 27	ProjectCustomField	台账_移送司法机关案件（件）	int	\N		\N	\N	f	f	f	23	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 28	ProjectCustomField	台账_移送司法机关（人数）	int	\N		\N	\N	f	f	f	24	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
+29	ProjectCustomField	审计单位ID	int	\N		\N	255	f	f	t	1	t		f	f	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
+30	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	f	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
