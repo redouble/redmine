@@ -22,6 +22,7 @@ class DocumentsController < ApplicationController
   before_action :find_model_object, :except => [:index, :new, :create]
   before_action :find_project_from_association, :except => [:index, :new, :create]
   before_action :authorize
+  accept_api_auth :index
 
   helper :attachments
   helper :custom_fields
@@ -40,7 +41,15 @@ class DocumentsController < ApplicationController
       @grouped = documents.group_by(&:category)
     end
     @document = @project.documents.build
-    render :layout => false if request.xhr?
+    
+    respond_to do |format|
+      format.html {
+        render :layout => false if request.xhr?
+      }
+      format.api {
+        render json: documents.map{ |d| {id: d.id, project_id: d.project_id, category: d.category&.name, title: d.title} }.to_json
+      }
+    end
   end
 
   def show
