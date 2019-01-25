@@ -26,5 +26,5 @@
 26	ProjectCustomField	台账_移送纪检监察处理（人数）	int	\N		\N	\N	f	f	f	22	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 27	ProjectCustomField	台账_移送司法机关案件（件）	int	\N		\N	\N	f	f	f	23	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
 28	ProjectCustomField	台账_移送司法机关（人数）	int	\N		\N	\N	f	f	f	24	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
-29	ProjectCustomField	审计单位ID	int	\N		\N	255	f	f	t	1	t		f	f	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
-30	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	f	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
+29	ProjectCustomField	审计单位ID	int	\N		\N	255	f	f	t	1	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
+30	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	
