@@ -24,6 +24,8 @@
 <%= textilizable @document, :description, :attachments => @document.attachments %>
 </div>
 
+<%= call_hook(:view_documents_show_details_bottom, :document => @document) %>
+
 <h3><%= l(:label_attachment_plural) %></h3>
 <%= link_to_attachments @document, :thumbnails => true %>
 

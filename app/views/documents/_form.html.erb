@@ -12,6 +12,8 @@
 
 <%= wikitoolbar_for 'document_description' %>
 
+<%= call_hook(:view_documents_form, :document => @document, :form => f) %>
+
 <% if @document.new_record? %>
 <div class="box tabular">
 <p><label><%=l(:label_attachment_plural)%></label><%= render :partial => 'attachments/form', :locals => {:container => @document} %></p>
