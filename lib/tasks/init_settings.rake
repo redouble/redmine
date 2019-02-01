@@ -38,4 +38,6 @@ def import_one_table(t, f)
       puts sql
     end
   end
+  # 更新主键序列
+  cnn.execute "ALTER SEQUENCE #{f}_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 1000000 START 101 CACHE 101;"
 end
