@@ -2,7 +2,7 @@
 2	DocumentCustomField	审计过程记录	text	\N		\N	\N	f	f	f	2	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n
 3	DocumentCustomField	审计结论	text	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n
 4	DocumentCustomField	关联阶段	version	\N		\N	\N	f	f	f	4	f	\N	t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nversion_status: []\nedit_tag_style: ''\n
-30  DocumentCustomField	对应标准文档模板	int	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n 指明当前文档在文档模板标准库中所对应的模板
+30	DocumentCustomField	对应标准文档模板	int	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n 指明当前文档在文档模板标准库中所对应的模板
 5	ProjectCustomField	审计单位ID	int	\N		\N	\N	f	f	t	1	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n
 6	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n
 7	ProjectCustomField	项目开始日期	date	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
