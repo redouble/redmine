@@ -39,5 +39,8 @@ def import_one_table(t, f)
     end
   end
   # 更新主键序列
-  cnn.execute "ALTER SEQUENCE #{t}_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 1000000 START 101 CACHE 101;"
+  begin
+    cnn.execute "ALTER SEQUENCE #{t}_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 1000000 START 101 CACHE 101;"
+  rescue
+  end
 end
