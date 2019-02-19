@@ -3,6 +3,7 @@ desc '针对特定类型项目进行基础配置，调用方法： rake "init_se
 task :init_settings, [:folder] => :environment do |t, args|
   # 涉及到的数据表
   # custom_fields 自定义属性
+  # custom_fields_trackers 自定义属性
   # enabled_modules 激活的模块
   # enumerations 枚举值
   # issue_categories 任务分类
@@ -21,6 +22,8 @@ end
 # 导入一个文件中的数据到一张数据表
 # t：数据表名
 # f：文件名（全路径）
+# 针对数据格式为PostgreSQL使用如下命令导出的数据表文件：
+# COPY table_name TO 'file_name.dat' NULL AS '\N'
 def import_one_table(t, f)
   cnn = ActiveRecord::Base.connection
   cnn.execute "DELETE FROM #{t};"
@@ -39,8 +42,26 @@ def import_one_table(t, f)
     end
   end
   # 更新主键序列
+  seq9 = "ALTER SEQUENCE #{t}_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 1000000 START 101 CACHE 101;"
   begin
-    cnn.execute "ALTER SEQUENCE #{t}_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 1000000 START 101 CACHE 101;"
+    cnn.execute seq9
   rescue
+    print "ERROR: "
+    puts seq9
+  end
+  seq10 = <<-SEQ
+    UPDATE pg_sequence 
+    SET seqincrement = 1, 
+        seqmin = 1, 
+        seqmax = 1000000, 
+        seqstart = 101, 
+        seqcache = 101 
+    WHERE seqrelid='#{t}_id_seq'::regclass;
+  SEQ
+  begin
+    cnn.execute seq10
+  rescue
+    print "ERROR: "
+    puts seq10.gsub("\n", ' ')
   end
 end

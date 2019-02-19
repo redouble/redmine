@@ -1,30 +1,30 @@
-1	DocumentCustomField	版本	string	\N		\N	\N	f	f	f	1	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n
-2	DocumentCustomField	审计过程记录	text	\N		\N	\N	f	f	f	2	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n
-3	DocumentCustomField	审计结论	text	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n
-4	DocumentCustomField	关联阶段	version	\N		\N	\N	f	f	f	4	f	\N	t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nversion_status: []\nedit_tag_style: ''\n
-30	DocumentCustomField	对应标准文档模板	int	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n 指明当前文档在文档模板标准库中所对应的模板
-5	ProjectCustomField	审计单位ID	int	\N		\N	\N	f	f	t	1	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n
-6	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n
-7	ProjectCustomField	项目开始日期	date	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-8	ProjectCustomField	项目结束日期	date	\N		\N	\N	f	f	f	4	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-9	ProjectCustomField	审计期间开始	date	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-10	ProjectCustomField	审计期间结束	date	\N		\N	\N	f	f	f	6	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-11	ProjectCustomField	审计方式	list	---\n- 联网审计\n- 就地审计\n- 送达审计\n		\N	\N	f	f	t	7	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\nedit_tag_style: ''\n
-12	ProjectCustomField	台账_项目投入人数	int	\N		\N	\N	f	f	f	8	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-13	ProjectCustomField	台账_项目天数	int	\N		\N	\N	f	f	f	9	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-14	ProjectCustomField	台账_项目人天数合计	int	\N		\N	\N	f	f	f	10	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-15	ProjectCustomField	台账_审计问题条数	int	\N		\N	\N	f	f	f	11	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-16	ProjectCustomField	台账_审计问题金额（万元）	float	\N		\N	\N	f	f	f	12	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-17	ProjectCustomField	台账_查出损失浪费（万元）	float	\N		\N	\N	f	f	f	13	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-18	ProjectCustomField	台账_增加效益（万元）	float	\N		\N	\N	f	f	f	14	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-19	ProjectCustomField	台账_发现大案要案线索（条数）	int	\N		\N	\N	f	f	f	15	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-20	ProjectCustomField	台账_提出整改建议（条数）	int	\N		\N	\N	f	f	f	16	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-21	ProjectCustomField	台账_建议被采纳（条数）	int	\N		\N	\N	f	f	f	17	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-22	ProjectCustomField	台账_提出处理意见（条数）	int	\N		\N	\N	f	f	f	18	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-23	ProjectCustomField	台账_意见被采纳（条数）	int	\N		\N	\N	f	f	f	19	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-24	ProjectCustomField	台账_行政处分（条数）	int	\N		\N	\N	f	f	f	20	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-25	ProjectCustomField	台账_经济处分（人数）	int	\N		\N	\N	f	f	f	21	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-26	ProjectCustomField	台账_移送纪检监察处理（人数）	int	\N		\N	\N	f	f	f	22	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-27	ProjectCustomField	台账_移送司法机关案件（件）	int	\N		\N	\N	f	f	f	23	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-28	ProjectCustomField	台账_移送司法机关（人数）	int	\N		\N	\N	f	f	f	24	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n
-29	IssueCustomField	对应标准审计事项	int	\N		\N	\N	f	t	f	1	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n 指明当前任务在审计事项标准库中所对应的审计事项
+1	DocumentCustomField	版本	string	\N		\N	\N	f	f	f	1	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	\N
+2	DocumentCustomField	审计过程记录	text	\N		\N	\N	f	f	f	2	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n	\N
+3	DocumentCustomField	审计结论	text	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\n	\N
+4	DocumentCustomField	关联阶段	version	\N		\N	\N	f	f	f	4	f	\N	t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nversion_status: []\nedit_tag_style: ''\n	\N
+5	ProjectCustomField	审计单位ID	int	\N		\N	\N	f	f	t	1	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	\N
+6	ProjectCustomField	被审计单位ID	string	\N		\N	255	f	f	t	2	t		f	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\ntext_formatting: ''\nurl_pattern: ''\n	\N
+7	ProjectCustomField	项目开始日期	date	\N		\N	\N	f	f	f	3	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+8	ProjectCustomField	项目结束日期	date	\N		\N	\N	f	f	f	4	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+9	ProjectCustomField	审计期间开始	date	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+10	ProjectCustomField	审计期间结束	date	\N		\N	\N	f	f	f	6	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+11	ProjectCustomField	审计方式	list	---\n- 联网审计\n- 就地审计\n- 送达审计\n		\N	\N	f	f	t	7	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\nedit_tag_style: ''\n	\N
+12	ProjectCustomField	台账_项目投入人数	int	\N		\N	\N	f	f	f	8	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+13	ProjectCustomField	台账_项目天数	int	\N		\N	\N	f	f	f	9	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+14	ProjectCustomField	台账_项目人天数合计	int	\N		\N	\N	f	f	f	10	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+15	ProjectCustomField	台账_审计问题条数	int	\N		\N	\N	f	f	f	11	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+16	ProjectCustomField	台账_审计问题金额（万元）	float	\N		\N	\N	f	f	f	12	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+17	ProjectCustomField	台账_查出损失浪费（万元）	float	\N		\N	\N	f	f	f	13	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+18	ProjectCustomField	台账_增加效益（万元）	float	\N		\N	\N	f	f	f	14	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+19	ProjectCustomField	台账_发现大案要案线索（条数）	int	\N		\N	\N	f	f	f	15	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+20	ProjectCustomField	台账_提出整改建议（条数）	int	\N		\N	\N	f	f	f	16	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+21	ProjectCustomField	台账_建议被采纳（条数）	int	\N		\N	\N	f	f	f	17	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+22	ProjectCustomField	台账_提出处理意见（条数）	int	\N		\N	\N	f	f	f	18	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+23	ProjectCustomField	台账_意见被采纳（条数）	int	\N		\N	\N	f	f	f	19	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+24	ProjectCustomField	台账_行政处分（条数）	int	\N		\N	\N	f	f	f	20	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+25	ProjectCustomField	台账_经济处分（人数）	int	\N		\N	\N	f	f	f	21	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+26	ProjectCustomField	台账_移送纪检监察处理（人数）	int	\N		\N	\N	f	f	f	22	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+27	ProjectCustomField	台账_移送司法机关案件（件）	int	\N		\N	\N	f	f	f	23	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+28	ProjectCustomField	台账_移送司法机关（人数）	int	\N		\N	\N	f	f	f	24	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	\N
+29	IssueCustomField	对应标准审计事项	int	\N		\N	\N	f	t	f	1	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
+30	DocumentCustomField	对应标准文档模板	int	\N		\N	\N	f	f	f	5	f		t	t	f	--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess\nurl_pattern: ''\n	
