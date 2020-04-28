@@ -20,9 +20,9 @@
 # Settings can be defined through the application in Admin -> Settings
 
 app_title:
-  default: 石刻项目
+  default: 司南
 app_subtitle:
-  default: 基于石刻平台的项目管理子系统
+  default: 灵活的全功能项目管理系统
 welcome_text:
   default:
 login_required:
